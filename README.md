@@ -15,7 +15,9 @@ Requirements for environment:
 - List of commands to use with makefile
 
 Current Makefile usage:
-- **make setup** - clean containers to aviod name conflict and start container named 'ubuntu'
-- **make enter** - attach terminal to container
-- **make stop** - stop the container
-- **make clean** - remove all stopped containers
+```
+make setup - clean containers to aviod name conflict and start container named 'ubuntu'
+make enter - attach terminal to container
+make stop - stop the container
+make clean - remove all stopped containers
+```

@@ -13,3 +13,9 @@ Requirements for environment:
 - Directory with additional files which can be copied into the contianer
 - Makefile with instructions to clean and start env
 - List of commands to use with makefile
+
+Current Makefile usage:
+*make setup* - clean containers to aviod name conflict and start container named 'ubuntu'
+*make enter* - attach terminal to container
+*make stop* - stop the container
+*make clean* - remove all stopped containers
